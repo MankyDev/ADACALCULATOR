@@ -1,0 +1,3 @@
+pkg_multiply.adb:1:06: warning: no entities of "Pkg_Add" are referenced
+pkg_multiply.adb:1:19: warning: use clause for package "Pkg_Add" has no effect
+pkg_multiply.adb:11:36: warning: "Result" may be referenced before it has a value
