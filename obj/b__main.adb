@@ -246,15 +246,15 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\pkg_add.o
-   --   C:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\pkg_multiply.o
-   --   C:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\pkg_subtract.o
-   --   C:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\tests_add.o
-   --   C:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\tests_multiply.o
-   --   C:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\tests_subtract.o
-   --   C:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\main.o
-   --   -LC:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\
-   --   -LC:\Users\alexc\Downloads\P3\P3\Practica1\Ejercicios de clase\SPARK_Lab-v2\SPARK_Lab\obj\
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_add.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_multiply.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_subtract.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_add.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_multiply.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_subtract.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\main.o
+   --   -LC:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\
+   --   -LC:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\
    --   -LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
    --   -static
    --   -lgnat

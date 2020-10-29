@@ -275,7 +275,7 @@ package ada_main is
    pragma Export (C, u00118, "system__assertionsS");
    u00119 : constant Version_32 := 16#1ede104b#;
    pragma Export (C, u00119, "tests_multiplyB");
-   u00120 : constant Version_32 := 16#2f0eaec4#;
+   u00120 : constant Version_32 := 16#297fb4aa#;
    pragma Export (C, u00120, "pkg_multiplyB");
    u00121 : constant Version_32 := 16#a925f00f#;
    pragma Export (C, u00121, "pkg_multiplyS");
