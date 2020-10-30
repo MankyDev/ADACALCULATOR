@@ -13,7 +13,7 @@ package Pkg_Divide with SPARK_Mode is
    --  Remainder in the global variables Last_Quotient and
    --  Last_Remainder.
    with
---      Global  => ...
+      Global  => (Last_Quotient, Last_Remainder),
 --      Depends => ...
         Pre     => True,
         Post    => True;

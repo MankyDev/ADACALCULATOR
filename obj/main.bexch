@@ -5,9 +5,11 @@ C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\default.gpr
 20201029102106 faa02e5e3947c4a7c6c468bf629de23f
 [BOUND OBJECT FILES]
 C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_add.o
+C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_divide.o
 C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_multiply.o
 C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_subtract.o
 C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_add.o
+C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_divide.o
 C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_multiply.o
 C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_subtract.o
 C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\main.o

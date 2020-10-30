@@ -1,0 +1,48 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -g
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnat12
+A -gnatwa
+A -gnateE
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pkg_divide%b		pkg_divide.adb		e807efa4 NE OO PK
+W pkg_add%s		pkg_add.adb		pkg_add.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U pkg_divide%s		pkg_divide.ads		348f7728 EE NE OO PK
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D pkg_add.ads		20201029120708 fbca8dd4 pkg_add%s
+D pkg_divide.ads	20201029152052 348f7728 pkg_divide%s
+D pkg_divide.adb	20201030115642 27421558 pkg_divide%b
+D system.ads		20200819050648 32a08138 system%s
+D s-assert.ads		20200819050646 cd8d2c94 system.assertions%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+G a e
+G c Z s b [divide pkg_divide 5 14 none]
+G r c none [divide pkg_divide 5 14 none] [add pkg_add 3 13 none]
+X 3 pkg_add.ads
+1K9*Pkg_Add 13e12 5|1w6 1r19
+3V13*Add{integer} 5|12s20 15s23 16s22
+X 4 pkg_divide.ads
+1K9*Pkg_Divide 21l5 21e15 5|3b14 22l5 22t15
+2i4*Last_Quotient{integer} 16r19 5|19m7
+3i4*Last_Remainder{integer} 16r34 5|18m7
+5U14*Divide 6>7 7>7 8<7 9<7 5|5b14 20l8 20t14
+6i7 Dividend{integer} 5|6b7 12r24
+7i7 Divisor{integer} 5|7b7 12r33 14r26 15r38
+8i7 Quotient{integer} 5|8b7 11m7 16m10 16r26 19r24
+9i7 Remainder{integer} 5|9b7 12m7 14r13 15m10 15r27 18r25
+

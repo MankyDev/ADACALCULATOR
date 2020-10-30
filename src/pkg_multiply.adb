@@ -11,17 +11,20 @@ package body Pkg_Multiply with SPARK_Mode is
          for I in 1 .. Second_Operand loop
             Result := Add(First_Operand, Result);
          end loop;
+
       elsif ((First_Operand > 0) and (Second_Operand < 0)) then
 
          for I in 1 .. (Second_Operand*(-1)) loop
             Result := Add(First_Operand, Result);
          end loop;
          Result := Result*(-1);
+
       elsif ((First_Operand < 0) and (Second_Operand > 0)) then
 
          for I in 1 .. Second_Operand loop
             Result := Add(First_Operand, Result);
          end loop;
+
       elsif ((First_Operand < 0) and (Second_Operand < 0)) then
 
          for I in 1 .. (Second_Operand*(-1)) loop

@@ -31,8 +31,9 @@ package body ada_main is
    E007 : Short_Integer; pragma Import (Ada, E007, "ada__text_io_E");
    E118 : Short_Integer; pragma Import (Ada, E118, "system__assertions_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "pkg_add_E");
-   E121 : Short_Integer; pragma Import (Ada, E121, "pkg_multiply_E");
-   E124 : Short_Integer; pragma Import (Ada, E124, "pkg_subtract_E");
+   E121 : Short_Integer; pragma Import (Ada, E121, "pkg_divide_E");
+   E124 : Short_Integer; pragma Import (Ada, E124, "pkg_multiply_E");
+   E127 : Short_Integer; pragma Import (Ada, E127, "pkg_subtract_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -209,6 +210,7 @@ package body ada_main is
       E116 := E116 + 1;
       E121 := E121 + 1;
       E124 := E124 + 1;
+      E127 := E127 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -247,9 +249,11 @@ package body ada_main is
 
 --  BEGIN Object file/option list
    --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_add.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_divide.o
    --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_multiply.o
    --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\pkg_subtract.o
    --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_add.o
+   --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_divide.o
    --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_multiply.o
    --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\tests_subtract.o
    --   C:\Users\alexc\Desktop\SPARK_Lab-v2\SPARK_Lab\obj\main.o
